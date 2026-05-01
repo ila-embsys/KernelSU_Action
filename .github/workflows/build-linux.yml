@@ -1,4 +1,4 @@
-name: Build Kernel linux
+name: Build Kernel linux mainline 
 on:
   workflow_dispatch:
 
