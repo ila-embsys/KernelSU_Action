@@ -1,6 +1,8 @@
 name: Build Kernel linux mainline 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
